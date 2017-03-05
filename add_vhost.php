@@ -593,5 +593,5 @@ $pageContents .= <<< EOPAGEB
 </html>
 EOPAGEB;
 
-echo $pageContents;
+echo $pageContents;  
 ?>
