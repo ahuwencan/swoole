@@ -321,7 +321,7 @@ if($VirtualHostMenu == "on") {
 								$error_message[] = sprintf($langues['txtServerNameIp'],"<span style='color:black;'>".$vh_ip."</span>","<span style='color:black;'>".$value."</span>",$virtualHost['vhosts_file']);
 							}
 						}
-						else
+						else   
 							$vhostsContents .= '<li><a href="http://'.$value.$UrlPort.'">'.$value.'</a></li>';
 					}
 					else {

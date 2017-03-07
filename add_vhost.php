@@ -571,7 +571,7 @@ EOPAGEB;
 
 EOPAGEB;
 	}
-	else {
+	else {   
 	$pageContents .= <<< EOPAGEB
 		<p><label>{$langues['VirtualHostName']}<code class="requis"><i>{$langues['Required']}</i></code></label><br>
 			<input type="text" name="vh_name" required="required" /><br>
@@ -593,5 +593,5 @@ $pageContents .= <<< EOPAGEB
 </html>
 EOPAGEB;
 
-echo $pageContents;  
-?>
+echo $pageContents.'gggg';  
+?> 
